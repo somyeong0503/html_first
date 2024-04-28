@@ -1,0 +1,75 @@
+/*기본 설정*/
+*{
+    font-family: "Noto sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;  
+}
+body{
+    margin:0;    
+}
+ul{
+    margin:0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(162, 186, 206);
+}
+.mainContent{
+    background-color: white;
+    padding:0 40px;
+    padding-bottom: 40px;
+}   
+p{
+    color: rgb(42, 87, 126);
+}
+
+a,li, .bold{
+    text-decoration: none;
+    color: rgb(59, 119, 172);
+    font-weight: 600;
+}
+.navContainer{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background-color: aliceblue;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.navContent{
+    display: flex;
+    margin-right: 60px;
+    gap: 50px;
+}
+
+header{
+    padding: 60px 0 30px 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset{
+    padding: 20px 40px;
+    background-color: aliceblue;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px 40px;
+}
+
+.bi{
+    font-size: x-large;
+}
+
+img {
+    max-width: 200px; /* 최대 너비 설정 */
+    max-height: 200px; /* 최대 높이 설정 */
+}

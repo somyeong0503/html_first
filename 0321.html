@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        .space-between {
+            margin-right: 30px; /* 글 사이 오른쪽 여백 */
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>개인프로필</title>
+    <link rel="stylesheet" href="./0321.css">
+</head>
+<body>
+    <header>
+    <img src="./개인프로필.png" alt="html이미지">
+    <span class="space-between"></span>
+        <h2> 안녕하세요! 지소명입니다.</h2>
+        <span class="space-between"></span>
+        <img src="./이미지 미피.png" alt="html이미지">
+    </header>
+   <fieldset>
+    <legend>소개</legend>
+    <div class="grid">
+<p class="bold">이름 : </p><p>지소명</p>
+<p class="bold">나이 : </p><p>24</p>
+<p class="bold">MBTI : </p><p>enfp</p>
+<p class="bold">취미 : </p><p>축구하기, 애니보기</p>
+    </div>
+   <main>
+      <form>
+        <fieldset>
+            <legend>정보입력</legend>
+            <table>
+                <tr>
+                    <th><label for="id">ID</b></label></th>
+                    <td colspan="2"><input type="=text" id="=id"></td>
+                </tr>
+                <tr>
+                    <th><label for="pass word"><b>password</b></label></th>
+                    <td colspan="2"><input type="password" id="password"></td>
+                </tr>
+                <tr> 
+                    <th>성별</th>
+                    <td><label for="woman">여자</label>
+                    <input type="radio" id="woman" name="gender" value="w"></td>
+                    <td><label for="man">남자</label>
+                    <input type="radio" id="=man" name="gender" value="m"></td>
+                </tr>
+                <tr>
+                    <th>단과대</th>
+                    <td><select>
+                <option>인문대학</option>
+                <option>공과대학</option>
+                <option>예술대학</option>
+            </select></td>
+        </tr>
+        <tr>
+            <th rowspan="2">좋아하는 음식</th>
+            <td><input type="checkbox" name="pizza" id="pizza"><label for="pizza">피자</label></td>
+            <td><input type="checkbox" name="chicken" id="chicken"><label for="chicken">치킨</label></td>
+        </tr> 
+        <tr>      
+            <td><input type="checkbox" name="hamburger" id="hamburger"><label for="hamburger">햄버거</label></td> 
+            <td><input type="checkbox" name="pasta" id="pasta"><label for="pasta">파스타</label></td> 
+            <td></td>
+        </tr>
+        <tr>
+            <td><input type="reset" value="초기화"></td>
+            <td><input type="submit" value="제출"></td>
+        </tr>
+        </table>  
+        </fieldset>
+      </form>
+   </main>
+</body>
+<footer>
+    <p>&copy;멋쟁이사자처럼 12기</p>
+    <div>
+       <a href="mailto:wlthaud123@naver.com">이메일</a>
+       <a href="https://githud.com/0503-2001">깃허브</a>
+    </div>
+    <a href= "#top"> 상단으로 </a>
+</footer>
+</html>
